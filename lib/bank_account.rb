@@ -9,6 +9,9 @@ end
     @transfer = transfer
   end
   
-  
+  def add_transfer(transfer)
+    @transfer << transfer
+  end
+end
   
   
