@@ -1,3 +1,7 @@
 class Transfer
-  # your code here
+  attr_accessor :balance, :transfer
+ 
+  def initialize(balance)
+    @balance = balance
+end
 end
